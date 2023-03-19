@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portfolio-demo-deploy
+  labels: 
+    name: portfolio-demo
+    app: website
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      name: portfolio-demo-pod
+      app: website
+  template:
+    metadata:
+      name: portfolio-demo-pod
+      labels: 
+        name: portfolio-demo-pod
+        app: website
+    spec:
+      containers:
+        - name: portfolio-demo
+          image: fbayomide/portfolio-demo
+          ports:
+            - containerPort: 80
