@@ -4,4 +4,4 @@
 
 [Portfolio App](http://portfolio.fbayomide.me)  
 
-[Sock Shop Example App](sockshop.fbayomide.me)
+[Sock Shop Example App](http://sockshop.fbayomide.me)
