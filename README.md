@@ -1,4 +1,4 @@
-# deploy-webapp-with-circle-ci
+# deploy-webapps-on-kubernetes
 
 ## Access the two deployed webapp  
 
